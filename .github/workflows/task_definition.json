@@ -8,7 +8,7 @@
   "containerDefinitions": [
     {
       "name": "document-portal-container",
-      "image": "259872030317.dkr.ecr.us-east-1.amazonaws.com/documentchatportal",
+      "image": "259872030317.dkr.ecr.us-east-1.amazonaws.com/documentchatportal:latest",
       "cpu": 1024,
       "essential": true,
       "portMappings": [
@@ -31,7 +31,6 @@
           "name": "API_KEYS",
           "valueFrom": "arn:aws:secretsmanager:us-east-1:259872030317:secret:apikeydocportal-98bNeg"
         }
-        
       ],
       "logConfiguration": {
         "logDriver": "awslogs",
@@ -45,3 +44,105 @@
     }
   ]
 }
+
+   
+			   
+																	
+		  
+				 
+
+	
+					   
+									
+									  
+									  
+															 
+										   
+
+			
+				 
+				
+
+	 
+			   
+						  
+																												   
+		  
+									  
+																			 
+
+								   
+								
+								   
+				 
+								   
+						 
+						  
+			
+												   
+		  
+						   
+								 
+
+									   
+													  
+			 
+															 
+																	 
+										   
+
+								 
+					 
+											 
+
+										 
+					   
+			
+															   
+									  
+			  
+															
+													
+									  
+								
+												   
+
+								   
+					
+								   
+		 
+							   
+						 
+						  
+		  
+						   
+								 
+
+									   
+													  
+			 
+															 
+																	 
+										   
+
+									
+					   
+															  
+			 
+														 
+												   
+														  
+
+								 
+																 
+
+						   
+															  
+			 
+																		   
+										 
+										 
+										  
+
+				   
+														
