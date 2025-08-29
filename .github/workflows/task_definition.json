@@ -2,7 +2,6 @@
   "family": "documentportaltd",
   "networkMode": "awsvpc",
   "executionRoleArn": "arn:aws:iam::259872030317:role/ecsTaskExecutionRole",
-  "taskRoleArn": "arn:aws:iam::259872030317:role/ecsTaskExecutionRole",
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "1024",
   "memory": "8192",
@@ -15,10 +14,7 @@
       "portMappings": [
         {
           "containerPort": 8080,
-          "hostPort": 8080,
-          "protocol": "tcp",
-          "name": "document-portal-container-8080-tcp",
-          "appProtocol": "http"
+          "protocol": "tcp"
         }
       ],
       "environment": [
@@ -38,112 +34,9 @@
         "options": {
           "awslogs-group": "/ecs/documentportaltd",
           "awslogs-region": "us-east-1",
-          "awslogs-stream-prefix": "ecs",
-          "awslogs-create-group": "true"
+          "awslogs-stream-prefix": "ecs"
         }
       }
     }
   ]
 }
-
-   
-			   
-																	
-		  
-				 
-
-	
-					   
-									
-									  
-									  
-															 
-										   
-
-			
-				 
-				
-
-	 
-			   
-						  
-																												   
-		  
-									  
-																			 
-
-								   
-								
-								   
-				 
-								   
-						 
-						  
-			
-												   
-		  
-						   
-								 
-
-									   
-													  
-			 
-															 
-																	 
-										   
-
-								 
-					 
-											 
-
-										 
-					   
-			
-															   
-									  
-			  
-															
-													
-									  
-								
-												   
-
-								   
-					
-								   
-		 
-							   
-						 
-						  
-		  
-						   
-								 
-
-									   
-													  
-			 
-															 
-																	 
-										   
-
-									
-					   
-															  
-			 
-														 
-												   
-														  
-
-								 
-																 
-
-						   
-															  
-			 
-																		   
-										 
-										 
-										  
-
-				   
-														
